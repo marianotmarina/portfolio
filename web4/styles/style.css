@@ -1,0 +1,248 @@
+
+body {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    font-family: 'Young Serif', serif; 
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+    color: rgb(118, 24, 129);
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 96px; 
+}
+.wrapper {
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+.wrapper__container {
+    border: 2px solid #efe3de;
+    border-radius: 14px;
+    overflow: hidden;
+    height: calc(100vh - 10px);
+    box-shadow: 8px 14px 14px 5px rgba(49, 152, 196, 0.35);
+  }
+.header {
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    padding: 0 15px;    
+}
+.header__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+}
+.header__logo {
+width: 100px;
+ height:100px;
+ background-image:url(../images/logo.png);  
+ background-size: cover; 
+ background-repeat: no-repeat;
+ background-position: center;
+ margin-left: 0px;
+}
+.header__title {
+    margin-top: 35px;
+    margin-left: 100px;
+}
+.header__title p {
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;     
+}
+.header__menu {
+    margin-top: 4px;
+    width: calc(50%-64px);
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+}
+.menu__list {
+list-style: none;
+display: flex;  
+
+}
+.menu__list li {
+  margin-right: 10px;
+}
+.menu__list li::ntx-child(4) {
+    margin-right:0;
+}
+.menu__link {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;      
+}
+.navbar-container__devider {
+margin: 0 10px;    
+padding: 10px;
+}
+.navbar-container__devider span {
+    color: rgb(118, 24, 129);
+    font-size: 35px;
+}
+.navbar-container__socials {
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.instagram {
+    margin-right: 30px;
+}
+.telegram {
+    margin-right: 30px;   
+}
+.page {
+    display: flex;
+    width: 100%;
+    padding: 0px;
+    margin-top: 70px;
+    
+}
+.conteiner__block {
+   display: flex; 
+   flex: 1;
+}
+.col-left {
+    flex: 1;
+    z-index: 10;
+    padding: 10px;
+    text-align: left;
+    margin-left: 83px;   
+}
+.title-welcome p {
+    color: rgb(118, 24, 129);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;     
+}
+.text-main {
+    margin-top: 20px;   
+}
+
+.text-wrapper {
+    margin: 36 0 0px;
+    
+}
+.text-wrapper p {
+    color: rgb(118, 24, 129);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;  
+    
+}
+.container-action{
+    margin: 42px auto;
+    width: 490px;
+  height: auto;     
+}
+.container-action p {
+    color: rgb(118, 24, 129);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;     
+}
+.conteiner-btn {
+    border-radius: 16px;
+    width: 301px;
+    height: 68px;
+    border: 2px solid #020003;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 16px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px auto;   
+}
+.container-input {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 16px auto;
+  border-radius: 4px;
+
+}
+.container__form {
+  margin: auto;
+  display: flex;
+  width: 360px;
+  align-items: center;
+  justify-content: center;
+}
+.conteiner-btn a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;  
+}
+.button {
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    overflow: visible;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    line-height: normal;
+    -webkit-font-smoothing: inherit;
+    -moz-osx-font-smoothing: inherit;
+}
+.col-right {
+    flex: 1;    
+}
+.avatar mask {
+ margin-bottom: 0;   
+}
+.avatar__img {
+    position:absolute; 
+    z-index: 1;
+    bottom: 0;  
+    margin-left: 200px; 
+}
+.avatar__bg {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    opacity: 1;
+}
